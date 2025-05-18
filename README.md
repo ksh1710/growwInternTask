@@ -2,6 +2,18 @@
 
 GrowwTask is an Android application built with Kotlin and Jetpack Compose that allows users to explore stock market data, including top gainers, top losers, and individual stock details. It utilizes a clean architecture with Hilt for dependency injection, Ktor for networking, and a local data cache for improved performance.
 
+## Summary [ To save your time ]
+ - It fetches data from the Alpha Vantage api for top movers and losers on the Explore Screen. Clicking View All takes you to ViewAllScreen,
+where you see all the data (Pagination not required due to data being limited).
+ - A search bar that leverages ticker search to provide search functionality using coroutine jobs to make it efficient.
+ - The Recently searched section, which shows the last 3 searches that persist in the preference datastore. By clicking View All, you can watch the last 20.
+ - 
+- Clicking an individual stock caches it and then shows you a detailed screen with the key metrics obtained and a line chart in DAILY_TIME_SERIES mapped using canvas to show the price variation over time. 
+- Error handling and UIStates are managed all along.
+- Material theme design.
+- Jetpack Compose-based UI.
+- MVVM architecture
+  
 ## Key Features
 
 *   **Browse Top Movers:** Discover top gainers and losers in the stock market.
