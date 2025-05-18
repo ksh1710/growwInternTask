@@ -13,7 +13,12 @@ where you see all the data (Pagination not required due to data being limited).
 - Material theme design.
 - Jetpack Compose-based UI.
 - MVVM architecture
-  
+
+## Screenshots
+
+<img src="screenshots/ss1.jpg" width="250"/>  <img src="screenshots/ss2.jpg" width="250"/>  <img src="screenshots/ss3.jpg" width="250"/>
+<img src="screenshots/ss4.jpg" width="250"/>  <img src="screenshots/ss5.jpg" width="250"/>  <img src="screenshots/ss6.jpg" width="250"/>
+
 ## Key Features
 
 *   **Browse Top Movers:** Discover top gainers and losers in the stock market.
